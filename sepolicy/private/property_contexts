@@ -35,7 +35,7 @@ animation_time_multiple  u:object_r:exported_camera_prop:s0
 camera_zoom_animation  u:object_r:exported_camera_prop:s0
 camera_always_keep_screen_on  u:object_r:exported_camera_prop:s0
 show_debug_info_as_watermark  u:object_r:exported_camera_prop:s0
-vendor.camera.skip_unconfigure.packagelist  u:object_r:exported_camera_prop:s0
+#vendor.camera.skip_unconfigure.packagelist  u:object_r:exported_camera_prop:s0
 MI_ALGO_ASD_SCENE  u:object_r:exported_camera_prop:s0
 camera_touch_edge_slop  u:object_r:exported_camera_prop:s0
 support_bluetooth_mic   u:object_r:exported_camera_prop:s0

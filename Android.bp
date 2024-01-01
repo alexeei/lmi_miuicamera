@@ -9,7 +9,7 @@ android_app_import {
 	name: "MiuiCamera",
 	owner: "xiaomi",
 	apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
-	overrides: ["Snap", "GoogleCameraGo", "Camera2"],
+	overrides: ["Snap", "GoogleCameraGo", "Camera2","Aperture"],
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -62,3 +62,14 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+android_app_import {
+	name: "MiuiExtraPhoto",
+	owner: "xiaomi",
+	apk: "proprietary/system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk",
+	overrides: ["MiuiExtraPhoto"],
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}

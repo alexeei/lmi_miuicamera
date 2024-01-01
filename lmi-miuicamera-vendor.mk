@@ -24,27 +24,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libCameraEffectJNI.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libarc_layer_sgl.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libarc_layer_sgl.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libc++_shared.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libcamera_arcsoft_handgesture.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libcamera_handgesture_mpbase.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libcamera_sound_effect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libcamera_sound_effect.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libhandengine.arcsoft.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libmisoundcamerasupport.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libmisoundcamerasupport.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libmiuiblursdk.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libmiuiblursdk.so \
-    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm/libmulti-wakeup-engine.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm/libmulti-wakeup-engine.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libCameraEffectJNI.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libAIPOSE.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libAIPOSE.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libYuvWatermark.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libYuvWatermark.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libDocumentProcess.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libDocumentProcess.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libarc_layer_sgl.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libarcsoft_deflicker.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libarcsoft_deflicker.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libc++.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libc++.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libc++_shared.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_arcsoft_handgesture.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_yuv_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_yuv_jni.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libyuv.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_mi_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_mi_handgesture.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_handgesture_mpbase.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_mpbase.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_sound_effect.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_sound_effect.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcom.xiaomi.camera.requestutil.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcom.xiaomi.camera.requestutil.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_requestutil_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_requestutil_jni.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libcamera_video_mein_algo_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_video_mein_algo_jni.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libdeflicker_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libdeflicker_jni.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libdmabufheap.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libdmabufheap.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libhandengine.arcsoft.so \
@@ -55,6 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libmialgo_saliency.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmialgo_saliency.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libmialgo_saliency_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmialgo_saliency_jni.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libmisoundcamerasupport.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmisoundcamerasupport.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libmiocr_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmiocr_wrapper.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libOCR.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libOCR.so \
+    vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libtailor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libtailor.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libmiuiblursdk.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmiuiblursdk.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libmulti-wakeup-engine.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmulti-wakeup-engine.so \
     vendor/xiaomi/lmi-miuicamera/proprietary/system/priv-app/MiuiCamera/lib/arm64/libvideo_extra_color_converter.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libvideo_extra_color_converter.so \
